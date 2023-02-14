@@ -10,13 +10,11 @@ const userSchema = mongoose.Schema({
     apaterno: {
         type: String,
         required: true,
-        min:6,
         max: 255
     },
     amaterno: {
         type: String,
         required: true,
-        min:6,
         max: 255
     },
     email: {
